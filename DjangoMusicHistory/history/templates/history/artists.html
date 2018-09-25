@@ -1,0 +1,11 @@
+{% extends "history/index.html" %} {% block main_stuff %}
+<h1>These are the singers in my database.</h1>
+
+<ul>
+    {% for artist in view.artist_list %}
+    <li>
+        <a href="{% url 'history:artist_detail' artist.id %}">{{artist.name}}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock main_stuff %}

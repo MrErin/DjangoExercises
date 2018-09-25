@@ -1,52 +1,14 @@
-# Project:
+# Django Exercises
 
+This repo holds several projects for learning Django, all tutorial-based (i.e., they have very little in the way of content.)
 
+## Note
 
-## Requirements:
+For all of the projects, it's fine to use the same virtual environment (in the case of the local computer, it's myvenv in this directory, not uploaded to GitHub).
 
+## Contents
 
-
-## Currently Working On:
-
-
-
-## Remaining Features:
-
-
-
-## Stretch Goals:
-
-
-
-## Completed Features:
-
-
-
-## Data Structure:
-
-
-## To Run
-
-[Delete what isn't necessary]
-
-Grunt Apps
-
-1. Clone the repo.
-2. From the command line, cd into the /src directory.
-3. Type ```grunt``` into the command line.
-4. Open a second terminal and cd into the /src directory.
-5. Type ```hs -o``` into the command line.
-
-Django Apps
-
-1. Clone the repo.
-2. From the command line, cd into the root directory (wherever the manage.py file is located).
-3. Type ```python manage.py runserver``` into the command line.
-4. Open a web browser and navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-
-React Apps
-
-1. Clone the repo.
-2. From the command line, cd into the project directory
-3. ```npm install```
-4. ```npm start```
+* [Django Girls](./DjangoGirls.README.md): Build a blog with Django using function-based views (rather than class-based)
+* [Django Music History](./DjangoMusicHistory/README.md): Learning to use a database with Django
+* [Django REST API](./Django_REST_API/README.md): Build an API with Django REST framework
+* [Pony Note](./PonyNote/README.md): Using Django with React
